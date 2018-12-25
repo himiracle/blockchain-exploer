@@ -4,7 +4,7 @@ import BlocksPresenter from "./BlocksPresenter";
 
 class BlocksContainer extends Component {
   render() {
-    return <BlocksPresenter />;
+    return <BlocksPresenter {...this.props} />;
   }
 }
 
